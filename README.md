@@ -5,7 +5,7 @@ Bf4 only
 
 Use auto inject addon on http://battlelog.battlefield.com/bf4/ and code from below. For best result inject at start, not "On page Load"(still will work but you will need refresh servers if js wont load before servers pop out)
 
-
+```ruby
 Timer = setInterval(function() {
 	if( typeof(serverbrowserwarsaw.serverrow.render) == "function"){
 		
@@ -75,3 +75,4 @@ Timer = setInterval(function() {
 	//end
 	}
 }, 100 )//end timer
+```
