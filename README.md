@@ -47,7 +47,6 @@ Timer = setInterval(function() {
 							}else {
 								DOM.children[3].style.color="green"
 							}
-							DOM.children[3][0]
 							DOM.children[3].children[0].innerHTML = "("+total_players+")"+blog_players
 						} else {
 							console.log("Error", response.statusText);
