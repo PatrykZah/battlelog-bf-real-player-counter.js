@@ -3,8 +3,7 @@ battlelog, real player counter, js
 
 Bf4 only, sort works by real players
 
-Use auto inject addon on http://battlelog.battlefield.com/bf4/ and code from below. For best result inject at start, not "On page Load"(still will work but you will need refresh servers if js wont load before servers pop out)
-
+Use auto inject addon or paste code manual in console (F12) on http://battlelog.battlefield.com/bf4/ and code from below. For best result inject after page load, you might need refresh servers(Not page!).
 ```ruby
 Timer = setInterval(function() {
 	if( typeof(serverbrowserwarsaw.serverrow.render) == "function"){
